@@ -14,7 +14,7 @@ const kahani = [
     "But I beleive, abhi bhi der nahi huyi hai",
     "Still, I saw you in my dreams 🥰",
     "Aditya inside me is not accepting to loose you 😕",
-    "When I saw Tushar's comment on your every photo, I though i've lost you",
+    "When I saw Tushar's comment on your every photo, I thought i've lost you",
     "I felt the same, that i felt on the day your sagai got fixed",
     "kal tak mai paresan tha jab tak baat nahi huyi thi 😖",
     "fir baat karke kuch magic ho gya, the same magic jo tumhare saath reh kar humesa hota tha 🤩",

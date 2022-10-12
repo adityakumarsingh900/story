@@ -63,6 +63,7 @@ export default function Story() {
 			{!kahani[current] && (
 				<div className="card" style={imageStyle}>
 					<img src={us} className="fade-in-image" alt="our_story" />
+					<p>Dont worry, will remove this site today.</p>
 			</div>
 			)}
         </div>
