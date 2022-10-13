@@ -4,9 +4,10 @@ const NORMAL_SIZE = { width: "370px", height: "370px" },
   SMALL_SIZE = { width: "150px", height: "150px" };
 
 export default function useAnimation() {
+  var isMobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
   const { play: mainPlay, style: mainStyle } = useAnimate({
     start: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       backgroundColor: "#ff7272",
       fontSize: "1.5rem",
       color: "#FFF",
@@ -22,7 +23,7 @@ export default function useAnimation() {
 			...SMALL_SIZE
     },
     complete: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       backgroundColor: "#ff7272",
       fontSize: "1.5rem",
       color: "#FFF",
@@ -33,7 +34,7 @@ export default function useAnimation() {
 
   const { play: nextPlay, style: nextStyle } = useAnimate({
     start: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       width: "0px",
       height: "0px",
       backgroundColor: "#ff7272",
@@ -42,7 +43,7 @@ export default function useAnimation() {
       borderRadius: '50%',
     },
     end: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       backgroundColor: "#ff7272",
       fontSize: "1.5rem",
       color: "#FFF",
@@ -50,7 +51,7 @@ export default function useAnimation() {
 			...NORMAL_SIZE
     },
     complete: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       width: "0px",
       height: "0px",
       backgroundColor: "#ff7272",
@@ -73,7 +74,7 @@ export default function useAnimation() {
 			...SMALL_SIZE
     },
     end: {
-      transform: "translateX(500px)",
+      transform: isMobile ? "translateY(200px)" : "translateX(500px)",
       backgroundColor: "#ff7272",
       fontSize: "1.5rem",
       color: "#FFF",
@@ -92,27 +93,6 @@ export default function useAnimation() {
     },
   });
 
-	const { play: imagePlay, style: imageStyle } = useAnimate({
-    start: {
-      // transform: "translateX(0px)",
-      // borderRadius: "50%",
-      // backgroundColor: "#9f2424",
-      // fontSize: "0.5rem",
-      // color: "#FFF",
-			// position: "fixed",
-			// top: "100px",
-			// zIndex: 99,
-			opacity: 0,
-    },
-    end: {
-      // transform: "translateX(500px)",
-      // backgroundColor: "#ff7272",
-      // fontSize: "1.5rem",
-      // color: "#FFF",
-			opacity: 1,
-    },
-  });
-
   return {
     mainPlay,
     mainStyle,
@@ -120,7 +100,5 @@ export default function useAnimation() {
     nextStyle,
     prevPlay,
     prevStyle,
-		imagePlay,
-		imageStyle
   };
 }
