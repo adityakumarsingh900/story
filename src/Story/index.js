@@ -38,6 +38,7 @@ export default function Story() {
       className="Story"
       style={{
         backgroundColor: colors[current - 26] || colors[0],
+				padding: "0px",
       }}
     >
       {current > 0 && (
