@@ -20,7 +20,7 @@ const kahani = [
     "fir baat karke kuch magic ho gya, the same magic jo tumhare saath reh kar humesa hota tha 🤩",
     "dekho na, fir se tumhe surprise karne ke ideas aa gye 💐💝",
     "I felt the same happiness, the same joy, the same love jo saath mai hota tha 😇",
-    "Lets not punish ourself, lets not punish our love , and accept the magic we feel when we were together 🙇🏻‍♀️🙇🏻",
+    "Lets not punish ourself, lets not punish our love , and accept the magic we feel when we are together 🙇🏻‍♀️🙇🏻",
     "I will support you in everything, Mummy Papa ko saath mai milkar samjha lenge yaaar",
     "Itna samjha hai ghar walo ne, aaj bhi samjh lenge",
     "Just dont say YES to Tushar",
