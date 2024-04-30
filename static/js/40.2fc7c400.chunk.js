@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklife=self.webpackChunklife||[]).push([[40],{40:function(e,c,s){e.exports=s.p+"static/media/home.2a8319ec7537d54c5cae.mp3"}}]);
