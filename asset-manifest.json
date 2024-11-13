@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a1fb844.css",
-    "main.js": "/static/js/main.f066aeaa.js",
+    "main.css": "/static/css/main.65b1478a.css",
+    "main.js": "/static/js/main.d40fd386.js",
     "static/js/569.32ed523e.chunk.js": "/static/js/569.32ed523e.chunk.js",
     "static/js/358.ff0af986.chunk.js": "/static/js/358.ff0af986.chunk.js",
     "static/js/911.9402d36d.chunk.js": "/static/js/911.9402d36d.chunk.js",
@@ -20,11 +20,17 @@
     "static/media/home.mp3": "/static/media/home.2a8319ec7537d54c5cae.mp3",
     "static/media/us2.png": "/static/media/us2.3a401916cfb34d5fa3a0.png",
     "static/media/suno.mp3": "/static/media/suno.edefff4d24934376df27.mp3",
-    "static/media/logo.svg": "/static/media/logo.5e2a7c0426c320b48a41c42e4f8bf71f.svg",
+    "static/media/adhoora.webp": "/static/media/adhoora.925d5487b1c82fac352c.webp",
+    "static/media/saaliRaat.png": "/static/media/saaliRaat.3d8babe5c64888ff526a.png",
+    "static/media/meraMannUskiZid.png": "/static/media/meraMannUskiZid.4ac56013f054294f7c89.png",
+    "static/media/logo.webp": "/static/media/logo.3b1d07f906bc401cbe72.webp",
+    "static/media/majaakHu.webp": "/static/media/majaakHu.42bf65e3524caef23ed3.webp",
+    "static/media/CherrySwash-Regular.ttf": "/static/media/CherrySwash-Regular.59d57b28cad8d478c5de.ttf",
+    "static/media/aajFir.jpg": "/static/media/aajFir.5bf38c4ceedd97a84a52.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.9a1fb844.css",
-    "static/js/main.f066aeaa.js"
+    "static/css/main.65b1478a.css",
+    "static/js/main.d40fd386.js"
   ]
 }
